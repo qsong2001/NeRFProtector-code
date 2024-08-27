@@ -3,7 +3,6 @@ ninja
 trimesh
 opencv-python
 tensorboardX
-torch
 numpy 
 pandas
 tqdm
@@ -17,3 +16,4 @@ scipy
 lpips
 imageio
 torchmetrics
+augly
