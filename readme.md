@@ -3,8 +3,8 @@
 
 # Install
 ```bash
-git clone --recursive https://github.com/ashawkey/torch-ngp.git
-cd torch-ngp
+git clone --recursive https://github.com/qsong2001/NeRFProtector-code.git
+cd NeRFProtector-code
 ```
 
 ### Install with conda and pip
