@@ -1,5 +1,5 @@
 # NeRFProtector
-### official implementation of Protecting NeRFs’ Copyright via Plug-And-Play Watermarking Base Model (ECCV 2024)  [Arxiv](https://arxiv.org/abs/2407.07735)
+## This is the official implementation of Protecting NeRFs’ Copyright via Plug-And-Play Watermarking Base Model (ECCV 2024)  [[Arxiv]](https://arxiv.org/abs/2407.07735)
 
 # Install
 ```bash
@@ -20,7 +20,9 @@ pip install -r requirements.txt
 
 # Usage
 
-We implement our NeRFProtector on torch-ngp. Please refer to [torch-ngp](https://github.com/ashawkey/torch-ngp) for more details of usage.
+We implement our NeRFProtector on torch-ngp. 
+
+Please refer to [torch-ngp](https://github.com/ashawkey/torch-ngp) for more details of usage.
 
 ```bash
 python main_nerf.py data/nerf_synthetic/lego --workspace out/lego -O --bound 1.0 --scale 0.8 --dt_gamma 0 --lambda1 0.001 --iters 10000 --lr 4e-2 --ml_sample True
