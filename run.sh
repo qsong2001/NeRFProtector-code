@@ -1,1 +1,0 @@
-python main_nerf.py data/nerf_synthetic/lego --workspace out/local_w_ml_global/lego_0.001 -O --bound 1.0 --scale 0.8 --dt_gamma 0 --lambda1 0.001 --iters 10000 --lr 4e-2 --ml_sample True
