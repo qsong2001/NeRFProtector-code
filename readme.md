@@ -24,6 +24,7 @@ We implement our NeRFProtector on torch-ngp.
 
 Please refer to [torch-ngp](https://github.com/ashawkey/torch-ngp) for more details of usage.
 
+For example, in the Lego scene, we can use the script below:
 ```bash
 python main_nerf.py data/nerf_synthetic/lego --workspace out/lego -O --bound 1.0 --scale 0.8 --dt_gamma 0 --lambda1 0.001 --iters 10000 --lr 4e-2 --ml_sample True
 ```
